@@ -1,0 +1,143 @@
+@font-face {
+    font-family: InstagramFont;
+    src: url('./InstagramFont.otf') format('opentype');
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    font-family: InstagramFont;
+    font-weight: 100;
+}
+hr{
+    height: 15px;
+    background-color: #f9f9f9;
+    border: none;
+}
+span {
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #262626;
+}
+.timeSpan{
+    font-size: 10px;
+    color: #8e8e8e;
+}
+
+.boldSpan {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.greySpan {
+    display: flex;
+    margin: 4px 0px 4px 0px;
+    color: rgb(129, 129, 129);
+    font-size: 13px;
+}
+
+.marcarSpan {
+    color: #00376B
+}
+
+#iconeStoryNovo, #iconeMensagens{
+    margin: 0 15px 0 15px
+}
+
+header {
+    justify-content: space-between;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgba(128, 128, 128, 0.287) solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+.topbar {
+    overflow-x: scroll;
+    display: flex;
+    padding: 60px 15px 5px 15px;
+    border-bottom: 1px rgba(128, 128, 128, 0.287) solid;
+}
+.mystoryPhoto {
+    border-radius: 600px;
+    padding: 1px;
+    border: 2px solid rgb(207, 207, 207);
+}
+.storyPhoto {
+    border-radius: 600px;
+    padding: 1px;
+    border: 2px solid rgb(220, 21, 100);
+}
+.storyPhotoFriends {
+    border-radius: 600px;
+    padding: 1px;
+    border: 2px solid rgb(65, 202, 74);
+}
+
+.story {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: row;
+
+}
+.mainPhoto{
+    width: 100%;
+    height: 100%;
+}
+
+.perfilPhoto {
+    border-radius: 100px;
+}
+
+.config {
+    margin-left: auto;
+}
+
+.iconbar{
+    display: flex;
+    padding: 12px;
+    gap: 16px;
+}
+.salvar{
+    margin-left: auto;
+}
+.texto{
+    margin: 0px 16px 0px 16px;
+}
+nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+.bottomBar{
+    border-top: 1px rgba(128, 128, 128, 0.287) solid;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
